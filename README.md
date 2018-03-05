@@ -10,18 +10,23 @@
 
 ``` bash
 # clone the project
+# 克隆这个项目
 git clone https://github.com/mdzxy/vue-admin-Template.git
 
 # install dependencies
+# 下载依赖包
 npm install
 
 # serve with hot reload at localhost:8080
+# 再localhost:8080 打开热加载服务
 npm run dev
 
 # build for production with minification
+# 生成生产环境包
 npm run build
 
 # build for production and view the bundle analyzer report
+# 构建产品并查看包分析器报告
 npm run build --report
 ```
 
