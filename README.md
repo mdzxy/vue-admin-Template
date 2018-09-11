@@ -23,10 +23,15 @@ npm install
 # 在localhost:8080 打开热加载服务
 npm run dev
 
+# build for testing environment with minification
+# 生成测试环境包
+
+npm run build:test
+
 # build for production with minification
 # 生成生产环境包
 
-npm run build
+npm run build:prod
 
 # build for production and view the bundle analyzer report
 # 构建产品并查看包分析器报告
@@ -34,4 +39,3 @@ npm run build
 npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
